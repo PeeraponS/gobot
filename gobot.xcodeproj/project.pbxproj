@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		596492FD2BACA46600A0F63F /* gobotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596492FC2BACA46600A0F63F /* gobotApp.swift */; };
+		596492FF2BACA46600A0F63F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596492FE2BACA46600A0F63F /* ContentView.swift */; };
+		596493012BACA46700A0F63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596493002BACA46700A0F63F /* Assets.xcassets */; };
+		596493042BACA46700A0F63F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596493032BACA46700A0F63F /* Preview Assets.xcassets */; };
+		5964930E2BACA46700A0F63F /* gobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5964930D2BACA46700A0F63F /* gobotTests.swift */; };
+		596493182BACA46700A0F63F /* gobotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596493172BACA46700A0F63F /* gobotUITests.swift */; };
+		5964931A2BACA46700A0F63F /* gobotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596493192BACA46700A0F63F /* gobotUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5964930A2BACA46700A0F63F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 596492F12BACA46600A0F63F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 596492F82BACA46600A0F63F;
+			remoteInfo = gobot;
+		};
+		596493142BACA46700A0F63F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 596492F12BACA46600A0F63F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 596492F82BACA46600A0F63F;
+			remoteInfo = gobot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		596492F92BACA46600A0F63F /* gobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		596492FC2BACA46600A0F63F /* gobotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gobotApp.swift; sourceTree = "<group>"; };
+		596492FE2BACA46600A0F63F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		596493002BACA46700A0F63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		596493032BACA46700A0F63F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		596493092BACA46700A0F63F /* gobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5964930D2BACA46700A0F63F /* gobotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gobotTests.swift; sourceTree = "<group>"; };
+		596493132BACA46700A0F63F /* gobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gobotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		596493172BACA46700A0F63F /* gobotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gobotUITests.swift; sourceTree = "<group>"; };
+		596493192BACA46700A0F63F /* gobotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gobotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		596493262BACA4C600A0F63F /* 7-11.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "7-11.gpx"; sourceTree = "<group>"; };
+		596493272BACA82000A0F63F /* WatTeianDad.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WatTeianDad.gpx; sourceTree = "<group>"; };
+		596493282BACAB7900A0F63F /* InSideWatTeianDad.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = InSideWatTeianDad.gpx; sourceTree = "<group>"; };
+		596493292BACACA400A0F63F /* NearHome.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NearHome.gpx; sourceTree = "<group>"; };
+		5964932A2BACAE0B00A0F63F /* MidTeianDad.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MidTeianDad.gpx; sourceTree = "<group>"; };
+		5964932B2BACB2A700A0F63F /* TeianDadFuniture.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TeianDadFuniture.gpx; sourceTree = "<group>"; };
+		5964932C2BACB57F00A0F63F /* OmYai.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OmYai.gpx; sourceTree = "<group>"; };
+		5964932D2BACB7C200A0F63F /* GymNearHome.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GymNearHome.gpx; sourceTree = "<group>"; };
+		5964932E2BACB9F300A0F63F /* KumOne.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KumOne.gpx; sourceTree = "<group>"; };
+		5964932F2BAD334700A0F63F /* NescafeNot.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NescafeNot.gpx; sourceTree = "<group>"; };
+		596493302BAD350E00A0F63F /* PathomMongkol.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PathomMongkol.gpx; sourceTree = "<group>"; };
+		596493312BAD37AA00A0F63F /* WatPraMain.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WatPraMain.gpx; sourceTree = "<group>"; };
+		596493322BAD44C300A0F63F /* ILaser.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ILaser.gpx; sourceTree = "<group>"; };
+		596493332BAD57CB00A0F63F /* NearWater.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NearWater.gpx; sourceTree = "<group>"; };
+		596493342BAD589D00A0F63F /* ศาลเจ้าแม่กวนอิม.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ศาลเจ้าแม่กวนอิม.gpx"; sourceTree = "<group>"; };
+		596493352BAD5D8000A0F63F /* ยิมโบส.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ยิมโบส.gpx"; sourceTree = "<group>"; };
+		596493362BAD7AAB00A0F63F /* Park.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Park.gpx; sourceTree = "<group>"; };
+		596493372BAD85B000A0F63F /* Siam.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Siam.gpx; sourceTree = "<group>"; };
+		596493382BAD899600A0F63F /* HomeIce.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HomeIce.gpx; sourceTree = "<group>"; };
+		596493392BAD8D5300A0F63F /* เทียนดัดวิลเลจ.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "เทียนดัดวิลเลจ.gpx"; sourceTree = "<group>"; };
+		5964933A2BAD8FFC00A0F63F /* Free.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Free.gpx; sourceTree = "<group>"; };
+		5964933B2BADBBA500A0F63F /* NearHomeIce.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NearHomeIce.gpx; sourceTree = "<group>"; };
+		59DCCD2B2BB33C71001E4372 /* Mahidol.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Mahidol.gpx; sourceTree = "<group>"; };
+		59DCCD2C2BB33F09001E4372 /* Chicago1 - 391 pokestops.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Chicago1 - 391 pokestops.gpx"; path = "../../../Downloads/Chicago1 - 391 pokestops.gpx"; sourceTree = "<group>"; };
+		59DFFD9A2BAF60790015DC17 /* Nescafe.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Nescafe.gpx; sourceTree = "<group>"; };
+		59DFFD9B2BAF62E90015DC17 /* TravelToNakhonpathom.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TravelToNakhonpathom.gpx; sourceTree = "<group>"; };
+		59DFFD9C2BB02CF40015DC17 /* ToTaMai.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ToTaMai.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		596492F62BACA46600A0F63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		596493062BACA46700A0F63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		596493102BACA46700A0F63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		596492F02BACA46600A0F63F = {
+			isa = PBXGroup;
+			children = (
+				596493262BACA4C600A0F63F /* 7-11.gpx */,
+				59DFFD9B2BAF62E90015DC17 /* TravelToNakhonpathom.gpx */,
+				5964932A2BACAE0B00A0F63F /* MidTeianDad.gpx */,
+				59DFFD9C2BB02CF40015DC17 /* ToTaMai.gpx */,
+				596493302BAD350E00A0F63F /* PathomMongkol.gpx */,
+				596493312BAD37AA00A0F63F /* WatPraMain.gpx */,
+				59DFFD9A2BAF60790015DC17 /* Nescafe.gpx */,
+				5964932F2BAD334700A0F63F /* NescafeNot.gpx */,
+				5964933B2BADBBA500A0F63F /* NearHomeIce.gpx */,
+				596493392BAD8D5300A0F63F /* เทียนดัดวิลเลจ.gpx */,
+				59DCCD2B2BB33C71001E4372 /* Mahidol.gpx */,
+				596493362BAD7AAB00A0F63F /* Park.gpx */,
+				596493342BAD589D00A0F63F /* ศาลเจ้าแม่กวนอิม.gpx */,
+				596493332BAD57CB00A0F63F /* NearWater.gpx */,
+				596493272BACA82000A0F63F /* WatTeianDad.gpx */,
+				596493382BAD899600A0F63F /* HomeIce.gpx */,
+				596493322BAD44C300A0F63F /* ILaser.gpx */,
+				596493352BAD5D8000A0F63F /* ยิมโบส.gpx */,
+				5964933A2BAD8FFC00A0F63F /* Free.gpx */,
+				596493372BAD85B000A0F63F /* Siam.gpx */,
+				5964932D2BACB7C200A0F63F /* GymNearHome.gpx */,
+				5964932E2BACB9F300A0F63F /* KumOne.gpx */,
+				5964932C2BACB57F00A0F63F /* OmYai.gpx */,
+				5964932B2BACB2A700A0F63F /* TeianDadFuniture.gpx */,
+				596493282BACAB7900A0F63F /* InSideWatTeianDad.gpx */,
+				596493292BACACA400A0F63F /* NearHome.gpx */,
+				59DCCD2C2BB33F09001E4372 /* Chicago1 - 391 pokestops.gpx */,
+				596492FB2BACA46600A0F63F /* gobot */,
+				5964930C2BACA46700A0F63F /* gobotTests */,
+				596493162BACA46700A0F63F /* gobotUITests */,
+				596492FA2BACA46600A0F63F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		596492FA2BACA46600A0F63F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				596492F92BACA46600A0F63F /* gobot.app */,
+				596493092BACA46700A0F63F /* gobotTests.xctest */,
+				596493132BACA46700A0F63F /* gobotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		596492FB2BACA46600A0F63F /* gobot */ = {
+			isa = PBXGroup;
+			children = (
+				596492FC2BACA46600A0F63F /* gobotApp.swift */,
+				596492FE2BACA46600A0F63F /* ContentView.swift */,
+				596493002BACA46700A0F63F /* Assets.xcassets */,
+				596493022BACA46700A0F63F /* Preview Content */,
+			);
+			path = gobot;
+			sourceTree = "<group>";
+		};
+		596493022BACA46700A0F63F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				596493032BACA46700A0F63F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5964930C2BACA46700A0F63F /* gobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				5964930D2BACA46700A0F63F /* gobotTests.swift */,
+			);
+			path = gobotTests;
+			sourceTree = "<group>";
+		};
+		596493162BACA46700A0F63F /* gobotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				596493172BACA46700A0F63F /* gobotUITests.swift */,
+				596493192BACA46700A0F63F /* gobotUITestsLaunchTests.swift */,
+			);
+			path = gobotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		596492F82BACA46600A0F63F /* gobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5964931D2BACA46700A0F63F /* Build configuration list for PBXNativeTarget "gobot" */;
+			buildPhases = (
+				596492F52BACA46600A0F63F /* Sources */,
+				596492F62BACA46600A0F63F /* Frameworks */,
+				596492F72BACA46600A0F63F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gobot;
+			productName = gobot;
+			productReference = 596492F92BACA46600A0F63F /* gobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		596493082BACA46700A0F63F /* gobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596493202BACA46700A0F63F /* Build configuration list for PBXNativeTarget "gobotTests" */;
+			buildPhases = (
+				596493052BACA46700A0F63F /* Sources */,
+				596493062BACA46700A0F63F /* Frameworks */,
+				596493072BACA46700A0F63F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5964930B2BACA46700A0F63F /* PBXTargetDependency */,
+			);
+			name = gobotTests;
+			productName = gobotTests;
+			productReference = 596493092BACA46700A0F63F /* gobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		596493122BACA46700A0F63F /* gobotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596493232BACA46700A0F63F /* Build configuration list for PBXNativeTarget "gobotUITests" */;
+			buildPhases = (
+				5964930F2BACA46700A0F63F /* Sources */,
+				596493102BACA46700A0F63F /* Frameworks */,
+				596493112BACA46700A0F63F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				596493152BACA46700A0F63F /* PBXTargetDependency */,
+			);
+			name = gobotUITests;
+			productName = gobotUITests;
+			productReference = 596493132BACA46700A0F63F /* gobotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		596492F12BACA46600A0F63F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					596492F82BACA46600A0F63F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					596493082BACA46700A0F63F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 596492F82BACA46600A0F63F;
+					};
+					596493122BACA46700A0F63F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 596492F82BACA46600A0F63F;
+					};
+				};
+			};
+			buildConfigurationList = 596492F42BACA46600A0F63F /* Build configuration list for PBXProject "gobot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 596492F02BACA46600A0F63F;
+			productRefGroup = 596492FA2BACA46600A0F63F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				596492F82BACA46600A0F63F /* gobot */,
+				596493082BACA46700A0F63F /* gobotTests */,
+				596493122BACA46700A0F63F /* gobotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		596492F72BACA46600A0F63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596493042BACA46700A0F63F /* Preview Assets.xcassets in Resources */,
+				596493012BACA46700A0F63F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		596493072BACA46700A0F63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		596493112BACA46700A0F63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		596492F52BACA46600A0F63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596492FF2BACA46600A0F63F /* ContentView.swift in Sources */,
+				596492FD2BACA46600A0F63F /* gobotApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		596493052BACA46700A0F63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5964930E2BACA46700A0F63F /* gobotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5964930F2BACA46700A0F63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5964931A2BACA46700A0F63F /* gobotUITestsLaunchTests.swift in Sources */,
+				596493182BACA46700A0F63F /* gobotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5964930B2BACA46700A0F63F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 596492F82BACA46600A0F63F /* gobot */;
+			targetProxy = 5964930A2BACA46700A0F63F /* PBXContainerItemProxy */;
+		};
+		596493152BACA46700A0F63F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 596492F82BACA46600A0F63F /* gobot */;
+			targetProxy = 596493142BACA46700A0F63F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5964931B2BACA46700A0F63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5964931C2BACA46700A0F63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5964931E2BACA46700A0F63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gobot/Preview Content\"";
+				DEVELOPMENT_TEAM = CBAU53PZ5G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpetch.gobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5964931F2BACA46700A0F63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gobot/Preview Content\"";
+				DEVELOPMENT_TEAM = CBAU53PZ5G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpetch.gobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		596493212BACA46700A0F63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CBAU53PZ5G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpetch.gobotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gobot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gobot";
+			};
+			name = Debug;
+		};
+		596493222BACA46700A0F63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CBAU53PZ5G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpetch.gobotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gobot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gobot";
+			};
+			name = Release;
+		};
+		596493242BACA46700A0F63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CBAU53PZ5G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpetch.gobotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gobot;
+			};
+			name = Debug;
+		};
+		596493252BACA46700A0F63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CBAU53PZ5G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpetch.gobotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gobot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		596492F42BACA46600A0F63F /* Build configuration list for PBXProject "gobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5964931B2BACA46700A0F63F /* Debug */,
+				5964931C2BACA46700A0F63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5964931D2BACA46700A0F63F /* Build configuration list for PBXNativeTarget "gobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5964931E2BACA46700A0F63F /* Debug */,
+				5964931F2BACA46700A0F63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596493202BACA46700A0F63F /* Build configuration list for PBXNativeTarget "gobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596493212BACA46700A0F63F /* Debug */,
+				596493222BACA46700A0F63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596493232BACA46700A0F63F /* Build configuration list for PBXNativeTarget "gobotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596493242BACA46700A0F63F /* Debug */,
+				596493252BACA46700A0F63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 596492F12BACA46600A0F63F /* Project object */;
+}
