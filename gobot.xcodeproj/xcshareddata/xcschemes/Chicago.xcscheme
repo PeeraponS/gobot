@@ -50,7 +50,7 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
-         identifier = "../../../../../Downloads/Chicago1 - 391 pokestops.gpx"
+         identifier = "../../Chicago.gpx"
          referenceType = "0">
       </LocationScenarioReference>
    </LaunchAction>

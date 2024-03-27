@@ -66,8 +66,8 @@
 		596493392BAD8D5300A0F63F /* เทียนดัดวิลเลจ.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "เทียนดัดวิลเลจ.gpx"; sourceTree = "<group>"; };
 		5964933A2BAD8FFC00A0F63F /* Free.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Free.gpx; sourceTree = "<group>"; };
 		5964933B2BADBBA500A0F63F /* NearHomeIce.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NearHomeIce.gpx; sourceTree = "<group>"; };
+		59CD26F72BB3E61C0000C0E3 /* Chicago.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Chicago.gpx; sourceTree = "<group>"; };
 		59DCCD2B2BB33C71001E4372 /* Mahidol.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Mahidol.gpx; sourceTree = "<group>"; };
-		59DCCD2C2BB33F09001E4372 /* Chicago1 - 391 pokestops.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Chicago1 - 391 pokestops.gpx"; path = "../../../Downloads/Chicago1 - 391 pokestops.gpx"; sourceTree = "<group>"; };
 		59DFFD9A2BAF60790015DC17 /* Nescafe.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Nescafe.gpx; sourceTree = "<group>"; };
 		59DFFD9B2BAF62E90015DC17 /* TravelToNakhonpathom.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TravelToNakhonpathom.gpx; sourceTree = "<group>"; };
 		59DFFD9C2BB02CF40015DC17 /* ToTaMai.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ToTaMai.gpx; sourceTree = "<group>"; };
@@ -106,6 +106,7 @@
 				5964932A2BACAE0B00A0F63F /* MidTeianDad.gpx */,
 				59DFFD9C2BB02CF40015DC17 /* ToTaMai.gpx */,
 				596493302BAD350E00A0F63F /* PathomMongkol.gpx */,
+				59CD26F72BB3E61C0000C0E3 /* Chicago.gpx */,
 				596493312BAD37AA00A0F63F /* WatPraMain.gpx */,
 				59DFFD9A2BAF60790015DC17 /* Nescafe.gpx */,
 				5964932F2BAD334700A0F63F /* NescafeNot.gpx */,
@@ -127,7 +128,6 @@
 				5964932B2BACB2A700A0F63F /* TeianDadFuniture.gpx */,
 				596493282BACAB7900A0F63F /* InSideWatTeianDad.gpx */,
 				596493292BACACA400A0F63F /* NearHome.gpx */,
-				59DCCD2C2BB33F09001E4372 /* Chicago1 - 391 pokestops.gpx */,
 				596492FB2BACA46600A0F63F /* gobot */,
 				5964930C2BACA46700A0F63F /* gobotTests */,
 				596493162BACA46700A0F63F /* gobotUITests */,
